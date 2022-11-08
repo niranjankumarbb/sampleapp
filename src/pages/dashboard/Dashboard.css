@@ -1,0 +1,20 @@
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  *{
+    margin: 0;
+  }
+
+  
+  .dashboard-container {
+     height: 200px;
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+  }
+
+  AppBar {
+    min-height: 500px;
+  } 
