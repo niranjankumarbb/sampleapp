@@ -13,7 +13,7 @@ function Routers() {
     <div>
          <BrowserRouter basename="/sampleapp"> 
            <Routes>
-             <Route path='/sampleapp' element={<Login1/>} exact={true} /> 
+             <Route path='/' element={<Login1/>} exact={true} /> 
              <Route path='/dashboard' element={<Dashboard/>} > 
                 <Route path='itemlist' element={<ItemList/>} /> 
                 <Route path='home' element={<Home/>} /> 
