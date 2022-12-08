@@ -11,7 +11,7 @@ import Login1 from './pages/Login1.js'
 function Routers() {
   return (
     <div>
-         <BrowserRouter basename={process.env.PUBLIC_URL}> 
+         <BrowserRouter > 
            <Routes>
              <Route path='/' element={<Login1/>} exact={true} /> 
              <Route path='/dashboard' element={<Dashboard/>} > 
