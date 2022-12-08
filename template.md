@@ -25,4 +25,4 @@ Redux without using toolkit
 grid
 context
 Logout
-
+Redirect routes <Route path='Signup' element={<Navigate to="/" replace / }/> 
