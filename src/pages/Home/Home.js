@@ -28,6 +28,7 @@ const [open, setOpen]= useState(false)
   }
 
   const handleClose= ()=>{
+    console.log('This is branch 1 handleClose')
     setOpen(false)
   }
 
