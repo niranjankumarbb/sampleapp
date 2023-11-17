@@ -95,7 +95,7 @@ function Login(props) {
             maxWidth: "100%",
           }}
           variant="contained"
-          href="dashboard/itemlist"
+          href="/itemlist"
           onMouseOver={mouseCount}
           onClick={handleSubmit}
         >

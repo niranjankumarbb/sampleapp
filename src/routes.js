@@ -11,16 +11,16 @@ import Login1 from './pages/Login1.js'
 function Routers() {
   return (
     <div>
-         <BrowserRouter basename="/sampleapp"> 
+         <BrowserRouter> 
            <Routes>
              <Route path='/' element={<Login1/>} exact={true} /> 
-             <Route path='/dashboard' element={<Dashboard/>} > 
+             {/* <Route path='/dashboard' element={<Dashboard/>} >  */}
+             <Route  element={<Dashboard/>} > 
                 <Route path='itemlist' element={<ItemList/>} /> 
                 <Route path='home' element={<Home/>} /> 
                 <Route path='Feature' element={<Features/>} /> 
                  <Route path='About' element={<About/>} /> 
                 <Route path='Signup' element={<Navigate to="/" replace /> } /> 
-
              </Route>
           </Routes>  
           </BrowserRouter>
@@ -29,3 +29,5 @@ function Routers() {
 }
 
 export default Routers
+
+// basename="/sampleapp"

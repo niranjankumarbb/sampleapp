@@ -116,8 +116,8 @@ function Itemlist() {
       {/* <img src='/yoga.png' style={{align:'right'}} alt='logoimage' />
                     <ArrowDownwardSharpIcon/>
                     <Paper elevation={8} /> */}
-                
-    </div>
+              
+      </div>
   );
 }
 

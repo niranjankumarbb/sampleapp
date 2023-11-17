@@ -37,7 +37,7 @@ function  Dashboard() {
 
      const handleMenubuttons= (page)=>{
         console.log('page value', page)
-        navigate(`/dashboard/${page}`)
+        navigate(`/${page}`)
      }
 
    console.log('value', value)

@@ -64,7 +64,7 @@ const [open, setOpen]= useState(false)
           </Modal>
       </div>
       {/* <img src= {background} alt='home background'/> */}
-      <a href="/dashboard/Feature">link to feature</a><br/>
+      <a href="/Feature">link to feature</a><br/>
       <a href="https://netbanking.hdfcbank.com/netbanking/">link to hdfc</a>
 
     </div>
