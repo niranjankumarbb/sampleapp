@@ -23,6 +23,7 @@ function Home() {
 const [open, setOpen]= useState(false)
 
   const handleOpen= ()=>{
+    console.log('This is branch 1')
     setOpen(true)
   }
 
