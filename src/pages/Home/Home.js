@@ -23,13 +23,11 @@ function Home() {
 const [open, setOpen]= useState(false)
 
   const handleOpen= ()=>{
-    console.log('This is branch 1')
-    setOpen(true)
+     setOpen(true)
   }
 
   const handleClose= ()=>{
-    console.log('This is branch 1 handleClose')
-    setOpen(false)
+     setOpen(false)
   }
 
   return (
